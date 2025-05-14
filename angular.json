@@ -24,7 +24,9 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/assets",
+              "src/favicon.ico"
             ],
             "styles": [
               "src/styles.css"
@@ -82,15 +84,23 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/assets",
+              "src/favicon.ico"
             ],
             "styles": [
               "src/styles.css"
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "eccd8f2c-180a-46ff-871c-69e1fe63b45c"
   }
 }
